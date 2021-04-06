@@ -1,0 +1,101 @@
+body {
+	margin: 0px;
+	width:100%;
+}
+header {
+	min-height: 400px;
+	background-size: cover;
+	background: #4457a4;
+	margin-bottom: -17px;
+}
+header img {
+	max-width: 200px;
+	margin: 100px;
+	float: left;
+}
+header h1 {
+	color:#dedede;
+	padding-top: 100px;
+	margin-top: 0;
+}
+.menu ul {
+	list-style: none;
+	padding: 0;
+	background: #E4EFD1;
+}
+.menu ul li {
+	display: inline-block;
+}
+.menu ul li a {
+	padding: 1em;
+	display: block;
+	color: #74924C;
+	border-right: 1px solid #BAD78B;
+	background: rgba(186, 215, 139, .3);
+}
+footer {
+	background: #4457a4;
+	color:#dedede;
+	height: 50px;
+	clear: both;
+	#margin-top:-50px;
+	#min-height: calc(100vh - 80px);
+}
+.main {
+	min-height: 800px;
+}
+.main {
+	margin:0 auto; /* Центрируем блоки */
+	width:100%; /* Задаем ширину 100%, чтобы сделать ее резиновой */
+	min-width:700px; /* Устанавливаем максимальную ширину */
+}
+.inline div {
+	display:inline-block; /* Делаем блоки по горизонтали */
+	display: -moz-inline-stack; /* Для FireFox 2, тот же самый, что и inline-block */
+	vertical-align:top; /* Выравниваем их сверху */
+	font-size:16px; /* Ставим дочкам размер шрифта, иначе примет значение родителя */
+	/* Для IE 6 и IE 7, чтобы блоки были по горизонтали
+	zoom: 1;
+	*display: inline;
+	*/
+}
+div.inline {font-size:0;} /* Ставим родителю значение 0, чтобы убрать отступы у блоков*/
+.left-block {
+	width:20%; /*Задаем ширину в процентах чтобы сделать ее резиновой*/
+	height:300px; /* Высота блока */
+}
+.content {
+	width:60%;
+	min-height:300px;
+}
+.content .center {
+	padding: 10px;
+}
+.right-block {
+	background:#fff;
+	width:20%;
+	height:300px;
+}
+.left-block ul {
+	list-style: none;
+}
+.left-block ul a {
+	color:#000;
+	text-decoration:none;
+}
+img {
+	width:100%;
+}
+.right-block {
+	text-align:center;
+}
+.right-block p {
+	font-size:20px;
+}
+.faq {
+	
+}
+.faq img {
+	min-width:400px;
+	width:49%;
+}
